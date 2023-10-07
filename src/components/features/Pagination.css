@@ -1,0 +1,45 @@
+[data-theme="dark"]{
+    --body_background:#111827;
+    --body_color:rgb(2, 2, 2);
+    --link_color:rgb(237, 252, 36);
+  
+  }
+
+.pagination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.pagination button {
+    width: 40px;
+    height: 40px;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: transparent;
+    color: #eee;
+    border:  1px solid #eee;
+}
+
+.pagination button.active {
+    font-weight: 900;
+    border-color: #101010;
+    background: #ffe400;
+    /* color: #101010; */
+    border:1px solid white;
+    /* background-color: var(--body_background); */
+    color: var(--body_color);
+  
+    
+}
+.pagination button.active:hover {
+    
+    border:1px solid white
+    
+}

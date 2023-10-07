@@ -1,0 +1,27 @@
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root{
+  --body_background:white;
+  --body_color:rgb(2, 2, 2);
+  --link_color:rgb(52, 2, 168);
+
+}
+[data-theme="dark"]{
+  --body_background:#111827;
+  --body_color:rgb(2, 2, 2);
+  --link_color:rgb(237, 252, 36);
+
+}
+body {
+  margin: 0;
+  font-family: "Quicksand";
+  font-size: 20px;
+  background-color: var(--body_background);
+  color: var(--body_color);
+}
